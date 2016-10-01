@@ -1,7 +1,10 @@
 import * as express from "express";
 
-export default class IndexRoute {
+export default class AnimalRoute{
     public load(req: express.Request, res: express.Response, nex: express.NextFunction) {
-        res.render("index");  
+        res.type("text/html");
+        res.send("Bird Bad"); 
+
     }
+    
 }
