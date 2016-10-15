@@ -16,7 +16,7 @@ export default class Server {
         private routes() {
                 const router = express.Router();
                 router.get("/", new IndexRoute().load);
-                router.get("/animal", new AnimalRoute().load);
+                router.get("/loud", new AnimalRoute().load);
                 router.get("/sunshine", new sunshine().load);
                 router.get("/rain", new rain().load);
                 router.get("/extreme", new extreme().load);
