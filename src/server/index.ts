@@ -1,9 +1,9 @@
 import * as express from "express";
 import IndexRoute from "../routes";
 import AnimalRoute from"../routes/AnimalRoutes/AnimalRoute";
-import AnimalCat from"../routes/AnimalRoutes/sunshine"
-import AnimalDog from"../routes/AnimalRoutes/rain"
-import AnimalBird from"../routes/AnimalRoutes/extreme"
+import sunshine from"../routes/AnimalRoutes/sunshine"
+import rain from"../routes/AnimalRoutes/rain"
+import extreme from"../routes/AnimalRoutes/extreme"
 
 export default class Server {
         public app: express.Application
