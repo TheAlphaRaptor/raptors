@@ -2,8 +2,8 @@ import * as express from "express";
 import IndexRoute from "../routes";
 import AnimalRoute from"../routes/AnimalRoutes/AnimalRoute";
 import AnimalCat from"../routes/AnimalRoutes/AnimalCat"
-import AnimalDog from"../routes/AnimalRoutes/AnimalDog"
-import AnimalBird from"../routes/AnimalRoutes/AnimalBird"
+import AnimalDog from"../routes/AnimalRoutes/rain"
+import AnimalBird from"../routes/AnimalRoutes/extreme"
 
 export default class Server {
         public app: express.Application
@@ -11,7 +11,6 @@ export default class Server {
         constructor() {
                 this.app = express();
                 this.routes();
-
         }
 
         private routes() {
@@ -19,8 +18,8 @@ export default class Server {
                 router.get("/", new IndexRoute().load);
                 router.get("/animal", new AnimalRoute().load);
                 router.get("/cat", new AnimalCat().load);
-                router.get("/dog", new AnimalDog().load);
-                router.get("/bird", new AnimalBird().load);
+                router.get("/rain", new AnimalDog().load);
+                router.get("/extreme", new AnimalBird().load);
                 this.app.use(router);
         }
  
