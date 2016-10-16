@@ -5,6 +5,8 @@ export default class AnimalRoute{
         res.type("text/html");
         res.send("yeah boi");
        
+    
+
     }   
 }
     
