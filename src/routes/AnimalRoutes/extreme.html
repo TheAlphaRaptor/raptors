@@ -1,0 +1,17 @@
+//html file
+<script>
+  function playSound (Nutshack.mp3) {
+    document.getElementById('play').play();
+  }
+</script>
+<body>
+    <audio id='play', src='localhost:8000', type='audio/mpeg'
+       <button onclick='playSound()' class='btn btn-danger btn-circle btn-lg'>
+          <i class='fa fa-5x fa-fire'>
+</body>
+
+
+//app.js
+app.get('/music.mp3', function(req, res){
+  ms.pipe(req, res, "/music.mp3");
+});
