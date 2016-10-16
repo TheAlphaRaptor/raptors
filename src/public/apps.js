@@ -1,3 +1,7 @@
+// we are specifying the html directory as another public directory
+app.use(express.static(path.join(__dirname, 'html')));
+
+
 // a convenient variable to refer to the HTML directory
 var html_dir = './html/';
 
