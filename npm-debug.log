@@ -1,24 +1,14 @@
 0 info it worked if it ends with ok
 1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
-<<<<<<< HEAD
 1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
 1 verbose cli   'start' ]
 2 info using npm@3.10.3
 3 info using node@v6.4.0
 4 verbose run-script [ 'prestart', 'start', 'poststart' ]
-=======
-1 verbose cli   'C:\\Users\\Junbo\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
-1 verbose cli   'start' ]
-2 info using npm@3.10.8
-3 info using node@v6.4.0
-4 verbose run-script [ 'prestart', 'start', 'poststart' ]
-<<<<<<< HEAD
->>>>>>> dc88500c4d963981aa891b916b532a249b65e4c8
 5 info lifecycle brat_server@1.0.0~prestart: brat_server@1.0.0
 6 silly lifecycle brat_server@1.0.0~prestart: no script for prestart, continuing
 7 info lifecycle brat_server@1.0.0~start: brat_server@1.0.0
 8 verbose lifecycle brat_server@1.0.0~start: unsafe-perm in lifecycle true
-<<<<<<< HEAD
 9 verbose lifecycle brat_server@1.0.0~start: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;c:\Users\Moo\Desktop\raptors\node_modules\.bin;C:\Program Files\nodejs;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\ProgramData\chocolatey\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\nodejs\;C:\Users\Moo\AppData\Local\atom\bin;C:\Users\Moo\AppData\Local\Programs\Git\cmd;C:\Users\Moo\AppData\Local\Programs\Git\mingw64\bin;C:\Users\Moo\AppData\Local\Programs\Git\usr\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\Moo\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;
 10 verbose lifecycle brat_server@1.0.0~start: CWD: c:\Users\Moo\Desktop\raptors
 11 silly lifecycle brat_server@1.0.0~start: Args: [ '/d /s /c',
@@ -31,26 +21,11 @@
 14 verbose stack     at emitTwo (events.js:106:13)
 14 verbose stack     at EventEmitter.emit (events.js:191:7)
 14 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
-=======
-9 verbose lifecycle brat_server@1.0.0~start: PATH: C:\Users\Junbo\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;c:\Users\Junbo\Desktop\raptors\node_modules\.bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Live\Shared;C:\MATLAB7\bin\win32;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\nodejs\;C:\Java- JDK\bin;C:\Users\Junbo\AppData\Local\Microsoft\WindowsApps;;C:\VSCode\Microsoft VS Code\bin;C:\Users\Junbo\AppData\Roaming\npm
-10 verbose lifecycle brat_server@1.0.0~start: CWD: c:\Users\Junbo\Desktop\raptors
-11 silly lifecycle brat_server@1.0.0~start: Args: [ '/d /s /c',
-11 silly lifecycle   'node ./node_modules/typescript/bin/tsc && node ./dist/index.js' ]
-12 silly lifecycle brat_server@1.0.0~start: Returned: code: 1  signal: null
-13 info lifecycle brat_server@1.0.0~start: Failed to exec start script
-14 verbose stack Error: brat_server@1.0.0 start: `node ./node_modules/typescript/bin/tsc && node ./dist/index.js`
-14 verbose stack Exit status 1
-14 verbose stack     at EventEmitter.<anonymous> (C:\Users\Junbo\AppData\Roaming\npm\node_modules\npm\lib\utils\lifecycle.js:255:16)
-14 verbose stack     at emitTwo (events.js:106:13)
-14 verbose stack     at EventEmitter.emit (events.js:191:7)
-14 verbose stack     at ChildProcess.<anonymous> (C:\Users\Junbo\AppData\Roaming\npm\node_modules\npm\lib\utils\spawn.js:40:14)
->>>>>>> dc88500c4d963981aa891b916b532a249b65e4c8
 14 verbose stack     at emitTwo (events.js:106:13)
 14 verbose stack     at ChildProcess.emit (events.js:191:7)
 14 verbose stack     at maybeClose (internal/child_process.js:852:16)
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
 15 verbose pkgid brat_server@1.0.0
-<<<<<<< HEAD
 16 verbose cwd c:\Users\Moo\Desktop\raptors
 17 error Windows_NT 10.0.14393
 18 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
@@ -59,16 +34,6 @@
 21 error code ELIFECYCLE
 22 error brat_server@1.0.0 start: `node ./node_modules/typescript/bin/tsc && node ./dist/index.js`
 22 error Exit status 2
-=======
-16 verbose cwd c:\Users\Junbo\Desktop\raptors
-17 error Windows_NT 10.0.14393
-18 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\Junbo\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "start"
-19 error node v6.4.0
-20 error npm  v3.10.8
-21 error code ELIFECYCLE
-22 error brat_server@1.0.0 start: `node ./node_modules/typescript/bin/tsc && node ./dist/index.js`
-22 error Exit status 1
->>>>>>> dc88500c4d963981aa891b916b532a249b65e4c8
 23 error Failed at the brat_server@1.0.0 start script 'node ./node_modules/typescript/bin/tsc && node ./dist/index.js'.
 23 error Make sure you have the latest version of node.js and npm installed.
 23 error If you do, this is most likely a problem with the brat_server package,
@@ -81,38 +46,3 @@
 23 error     npm owner ls brat_server
 23 error There is likely additional logging output above.
 24 verbose exit [ 1, true ]
-<<<<<<< HEAD
-=======
-=======
-5 info prestart brat_server@1.0.0
-6 info start brat_server@1.0.0
-7 verbose unsafe-perm in lifecycle true
-8 info brat_server@1.0.0 Failed to exec start script
-9 verbose stack Error: brat_server@1.0.0 start: `node ./node_modules/typescript/bin/tsc && node ./dist/index.js`
-9 verbose stack Exit status 2
-9 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
-9 verbose stack     at EventEmitter.emit (events.js:110:17)
-9 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
-9 verbose stack     at ChildProcess.emit (events.js:110:17)
-9 verbose stack     at maybeClose (child_process.js:1015:16)
-9 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
-10 verbose pkgid brat_server@1.0.0
-11 verbose cwd /Users/Blaine/Desktop/Raptor Squad/raptors
-12 error Darwin 14.5.0
-13 error argv "node" "/usr/local/bin/npm" "start"
-14 error node v0.12.7
-15 error npm  v2.11.3
-16 error code ELIFECYCLE
-17 error brat_server@1.0.0 start: `node ./node_modules/typescript/bin/tsc && node ./dist/index.js`
-17 error Exit status 2
-18 error Failed at the brat_server@1.0.0 start script 'node ./node_modules/typescript/bin/tsc && node ./dist/index.js'.
-18 error This is most likely a problem with the brat_server package,
-18 error not with npm itself.
-18 error Tell the author that this fails on your system:
-18 error     node ./node_modules/typescript/bin/tsc && node ./dist/index.js
-18 error You can get their info via:
-18 error     npm owner ls brat_server
-18 error There is likely additional logging output above.
-19 verbose exit [ 1, true ]
->>>>>>> 0f0f20bf4ddca5a0adf6e263de5cec9682271031
->>>>>>> dc88500c4d963981aa891b916b532a249b65e4c8
