@@ -24,7 +24,7 @@ export default class Server {
  
 start(){
   this.app.use(express.static(__dirname + '/public'));
-  this.app.listen(8000)
+  this.app.listen(80)
 }
 
 
