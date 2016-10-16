@@ -5,7 +5,6 @@ export default class AnimalRoute{
         res.type("text/html");
         res.send("<p> Here are the current directories: \n extreme \n sunshine \n rain </p>"); 
 
-    }
+}
 
-    
 }
