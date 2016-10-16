@@ -13,6 +13,7 @@
 10 verbose lifecycle brat_server@1.0.0~start: CWD: c:\Users\Moo\Desktop\raptors
 11 silly lifecycle brat_server@1.0.0~start: Args: [ '/d /s /c',
 11 silly lifecycle   'node ./node_modules/typescript/bin/tsc && node ./dist/index.js' ]
+<<<<<<< HEAD
 12 silly lifecycle brat_server@1.0.0~start: Returned: code: 2  signal: null
 13 info lifecycle brat_server@1.0.0~start: Failed to exec start script
 14 verbose stack Error: brat_server@1.0.0 start: `node ./node_modules/typescript/bin/tsc && node ./dist/index.js`
@@ -46,3 +47,26 @@
 23 error     npm owner ls brat_server
 23 error There is likely additional logging output above.
 24 verbose exit [ 1, true ]
+=======
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:1026:11)
+12 verbose stack     at process.kill (internal/process.js:172:13)
+12 verbose stack     at process.listener (C:\Users\Junbo\AppData\Roaming\npm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+12 verbose stack     at emitNone (events.js:91:20)
+12 verbose stack     at process.emit (events.js:185:7)
+12 verbose stack     at processEmit (C:\Users\Junbo\AppData\Roaming\npm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at processEmit (C:\Users\Junbo\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:199:44)
+13 verbose cwd c:\Users\Junbo\Desktop\raptors
+14 error Windows_NT 10.0.14393
+15 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\Junbo\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "start"
+16 error node v6.4.0
+17 error npm  v3.10.8
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
+>>>>>>> a960701ab57509b9367c5355af286b026795f7f0

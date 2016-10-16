@@ -5,6 +5,23 @@ export default class AnimalRoute {
         res.type("text/html");
         res.send("yeah boi"); 
         res.send("yeah boi");
+<<<<<<< HEAD
 
     }   
  }    
+=======
+        document.createElement("img");
+
+interface Window {
+    Image: {   
+        prototype: HTMLImageElement;
+        new (): HTMLImageElement;
+    };
+}
+var a = new Images()
+
+    }   
+}
+
+    
+>>>>>>> a960701ab57509b9367c5355af286b026795f7f0
