@@ -5,11 +5,9 @@ export default class AnimalRoute {
         res.type("text/html");
         res.send("yeah boi"); 
         res.send("yeah boi");
-<<<<<<< HEAD
-
     }   
  }    
-=======
+
         document.createElement("img");
 
 interface Window {
