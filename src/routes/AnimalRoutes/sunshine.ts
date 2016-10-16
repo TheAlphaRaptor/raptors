@@ -12,4 +12,3 @@ export default class AnimalRoute{
     }
 //>>>>>>> a007d30d2c3f4e82bade920b253086c2b4255df7
     
-}
